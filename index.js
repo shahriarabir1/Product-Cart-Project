@@ -42,7 +42,7 @@ function addItems(e) {
     let list = new List(items.textContent.trim(), price.textContent.trim());
     SaveLocal(list);
     UI.alertNow("Added Successfully", "success");
-    count += 1;
+   
   }
 }
 
